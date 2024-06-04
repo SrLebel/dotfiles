@@ -1,0 +1,26 @@
+ import = ["~/.config/alacritty/oxocarbon-dark.toml"]
+
+live_config_reload = true
+
+[window]
+padding = { x = 0, y = 0 }
+decorations = "Full"
+# startup_mode = "Maximized"
+dynamic_title = false
+
+[scrolling]
+history = 1000
+multiplier = 3
+
+[font]
+normal = { family = "Iosevka Nerd Font Mono", style = "Regular"}
+bold = { family = "Iosevka Nerd Font Mono", style = "Bold"}
+italic = { family = "Iosevka Nerd Font Mono", style = "Italic"}
+bold_italic = { family = "Iosevka Nerd Font Mono", style ="Bold Italic"}
+
+size = 12
+
+[bell]
+animation = "Ease"
+duration = 100
+color = "#f2f4f8"
