@@ -5,7 +5,7 @@
 //
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
-// command palette
+// command palette (cmd-shift-p / ctrl-shift-p)
 {
   "features": {
     "inline_completion_provider": "none"
@@ -21,18 +21,18 @@
   },
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "One Dark"
-  },
   "autosave": "off",
-  "buffer_font_family": "Iosevka Nerd Font Mono",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "vim_mode": true,
   "toolbar": {
     "quick_actions": false
   },
   "format_on_save": "on",
   "tab_size": 2,
-  "soft_wrap": "editor_width"
+  "soft_wrap": "editor_width",
+  "theme": {
+    "mode": "system",
+    "light": "Gruvbox Light Hard",
+    "dark": "Gruvbox Dark Hard"
+  }
 }
